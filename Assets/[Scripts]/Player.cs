@@ -1,18 +1,12 @@
+//Player save data
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public static class Player 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static int Game1 { get; set; }
+    public static float Game2 { get; set; }
+    public static bool Game3 { get; set; }
 }
